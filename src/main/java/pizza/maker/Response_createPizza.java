@@ -1,4 +1,4 @@
-package ihate.mylife;
+package pizza.maker;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

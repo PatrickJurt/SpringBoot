@@ -1,4 +1,4 @@
-package ihate.mylife;
+package pizza.maker;
 
 public interface Pizza{
 

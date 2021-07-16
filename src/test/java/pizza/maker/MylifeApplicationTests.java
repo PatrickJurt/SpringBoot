@@ -1,4 +1,4 @@
-package ihate.mylife;
+package pizza.maker;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -1,4 +1,4 @@
-package ihate.mylife;
+package pizza.maker;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

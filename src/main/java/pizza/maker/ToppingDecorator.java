@@ -1,4 +1,4 @@
-package ihate.mylife;
+package pizza.maker;
 
 public abstract class ToppingDecorator implements Pizza {
 

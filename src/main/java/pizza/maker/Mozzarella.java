@@ -1,4 +1,4 @@
-package ihate.mylife;
+package pizza.maker;
 
 public class Mozzarella extends ToppingDecorator {
 

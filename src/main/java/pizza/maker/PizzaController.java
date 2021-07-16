@@ -1,17 +1,13 @@
-package ihate.mylife;
+package pizza.maker;
 
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.net.URI;
-import java.net.URISyntaxException;
-import java.util.List;
-
+@RestController
 public class PizzaController {
 
-    @RestController
-    @RequestMapping("/clients")
-    public class ClientsController {
+    //@RestController
+    //@RequestMapping("/clients")
+    //public class ClientsController {
 /*
         private final PizzaRepository pizzaRepository;
 
@@ -23,19 +19,19 @@ public class PizzaController {
 
 
         @GetMapping("/pizza")
-        public Response_createPizza create_pizza(@RequestParam(value = "equip") String equip, @RequestParam(value = "number", defaultValue = "1") int number) {
+        public Response_createPizza create_pizza(@RequestParam(value = "topping") String topping) {
 
             Pizza tmpPizza = new BasicPizza();
 
-            if (equip.contains("ananas")) tmpPizza = new Ananas(tmpPizza);
-            if (equip.contains("chilli")) tmpPizza = new Chilli(tmpPizza);
-            if (equip.contains("mozzarella")) tmpPizza = new Mozzarella(tmpPizza);
-            if (equip.contains("parmesan")) tmpPizza = new Parmesan(tmpPizza);
-            if (equip.contains("pilz")) tmpPizza = new Pilz(tmpPizza);
-            if (equip.contains("poulet")) tmpPizza = new Poulet(tmpPizza);
-            if (equip.contains("salami")) tmpPizza = new Salami(tmpPizza);
-            if (equip.contains("schinken")) tmpPizza = new Schinken(tmpPizza);
-            if (equip.contains("tomatosauce")) tmpPizza = new TomatoSauce(tmpPizza);
+            if (topping.contains("ananas")) tmpPizza = new Ananas(tmpPizza);
+            if (topping.contains("chilli")) tmpPizza = new Chilli(tmpPizza);
+            if (topping.contains("mozzarella")) tmpPizza = new Mozzarella(tmpPizza);
+            if (topping.contains("parmesan")) tmpPizza = new Parmesan(tmpPizza);
+            if (topping.contains("pilz")) tmpPizza = new Pilz(tmpPizza);
+            if (topping.contains("poulet")) tmpPizza = new Poulet(tmpPizza);
+            if (topping.contains("salami")) tmpPizza = new Salami(tmpPizza);
+            if (topping.contains("schinken")) tmpPizza = new Schinken(tmpPizza);
+            if (topping.contains("tomatosauce")) tmpPizza = new TomatoSauce(tmpPizza);
 
             // in Datenbank
 
@@ -75,5 +71,5 @@ public class PizzaController {
         }
 
          */
-    }
+    //}
 }
